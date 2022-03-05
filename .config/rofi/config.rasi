@@ -1,0 +1,14 @@
+/** Basic config file **/
+@theme "dracula"
+
+configuration {
+  modi: "drun,run,window";
+  kb-cancel: "Escape,Control+g,Control+bracketleft,Alt+F1";
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+
+element {
+    children: [element-icon, element-text];
+}
+
