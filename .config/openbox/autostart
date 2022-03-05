@@ -1,0 +1,81 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+#== misc
+picom --config ~/.config/picom/picom.conf --experimental-backends &
+dunst &
+xrdb -load ~/.Xresources &
+
+#== polybar
+/home/ron/.config/polybar/run.sh &
+#tint2 &
+
+#== thunar starting in daemon mode
+#thunar --daemon &
+
+#=== network manager applet
+nm-applet &
+
+#=== battery icon
+#cbatticon &
+
+#== system tray
+#sleep 1; trayer --edge bottom --align left --widthtype request --SetDockType false --expand true &
+
+#== bluetooth
+blueman-applet &
+
+#== conky
+#(sleep 3s && conky) &
+
+#== Set background image
+(sleep 1; nitrogen --restore) &
+#~/.fehbg &
+
+#== on laptops without seperate numeric keyboard put hashtag in front
+numlockx &
+
+#== GNOME PolicyKit authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+#== Volume control for systray
+#(sleep 2; volumeicon) &
+(sleep 2; pasystray --notify=none) &
+
+#== Turn off/on System Beep
+xset b off
+
+#== set dpms
+#xset dpms 0 0 600 &
+
+#== Enable power management
+#xfce4-power-manager &
+#caffeine &
+
+
+#== Clipboard Manager
+#(sleep 3; clipit) &
+
+#== hot corners with cornora-git
+cornora -tr "skippy-xd" -bl "sleep 1; xset dpms force off" -v -iof &
+#cornora -tr "skippy-xd" -bl "sleep 1; xset dpms force off"
+#== XFCE4 Settings
+#xfsettingsd &
+#xfsettingsd --sm-client-disable --disable-wm-check &
+#=== gtk settings
+xsettingsd &
+
+#== lock screen
+#xautolock -time 10 -locker blurlock4.sh -corners '+00-'
+#xautolock -time 10 -locker i3lock-fancy -corners '+00-' &
+xautolock -time 10 -locker i3lock-arc-dark.sh -corners '+-00' -cornerdelay 15 -notify 15 -notifier "notify-send 'Screen will lock in 15 s'" &
+
+## Enable Super Keys For Menu
+#ksuperkey -e 'Super_L=Alt_L|F1' &
+#ksuperkey -e 'Super_R=Alt_L|F1' &
+
+mpDris2 &
+
