@@ -1,0 +1,124 @@
+sw_volume: 100
+audio_device_state:1:My Pulse Output
+audio_device_state:1:my_fifo
+state: pause
+current: 55
+time: 69.321000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Avenged Sevenfold/Nightmare (Deluxe Version)/Nightmare.mp3
+1:Avenged Sevenfold/Nightmare (Deluxe Version)/Welcome to the Family.mp3
+2:Avenged Sevenfold/Nightmare (Deluxe Version)/Danger Line.mp3
+3:Avenged Sevenfold/Nightmare (Deluxe Version)/Buried Alive.mp3
+4:Avenged Sevenfold/Nightmare (Deluxe Version)/Natural Born Killer.mp3
+5:Avenged Sevenfold/Nightmare (Deluxe Version)/So Far Away.mp3
+6:Avenged Sevenfold/Nightmare (Deluxe Version)/God Hates Us.mp3
+7:Avenged Sevenfold/Nightmare (Deluxe Version)/Victim.mp3
+8:Avenged Sevenfold/Nightmare (Deluxe Version)/Tonight the World Dies.mp3
+9:Avenged Sevenfold/Nightmare (Deluxe Version)/Fiction.mp3
+10:Avenged Sevenfold/Nightmare (Deluxe Version)/Save Me.mp3
+11:Avenged Sevenfold/Nightmare (Deluxe Version)/Lost It All (Non-Album Track).mp3
+12:Avenged Sevenfold/Hail to the King (Deluxe Version)/01 Shepherd of Fire.mp3
+13:Avenged Sevenfold/Hail to the King (Deluxe Version)/02 Hail to the King.mp3
+14:Avenged Sevenfold/Hail to the King (Deluxe Version)/03 Doing Time.mp3
+15:Avenged Sevenfold/Hail to the King (Deluxe Version)/04 This Means War.mp3
+16:Avenged Sevenfold/Hail to the King (Deluxe Version)/05 Requiem.mp3
+17:Avenged Sevenfold/Hail to the King (Deluxe Version)/06 Crimson Day.mp3
+18:Avenged Sevenfold/Hail to the King (Deluxe Version)/07 Heretic.mp3
+19:Avenged Sevenfold/Hail to the King (Deluxe Version)/08 Coming Home.mp3
+20:Avenged Sevenfold/Hail to the King (Deluxe Version)/09 Planets.mp3
+21:Avenged Sevenfold/Hail to the King (Deluxe Version)/10 Acid Rain.mp3
+22:Avenged Sevenfold/Hail to the King (Deluxe Version)/12 St. James (Bonus Track).mp3
+23:Avenged Sevenfold/The Stage/01 The Stage.mp3
+24:Avenged Sevenfold/The Stage/02 Paradigm.mp3
+25:Avenged Sevenfold/The Stage/03 Sunny Disposition.mp3
+26:Avenged Sevenfold/The Stage/04 God Damn.mp3
+27:Avenged Sevenfold/The Stage/05 Creating God.mp3
+28:Avenged Sevenfold/The Stage/06 Angels.mp3
+29:Avenged Sevenfold/The Stage/07 Simulation.mp3
+30:Avenged Sevenfold/The Stage/08 Higher.mp3
+31:Avenged Sevenfold/The Stage/09 Roman Sky.mp3
+32:Avenged Sevenfold/The Stage/10 Fermi Paradox.mp3
+33:Avenged Sevenfold/The Stage/11 Exist.mp3
+34:Metallica/St. Anger/01 Frantic.mp3
+35:Metallica/St. Anger/02 St. Anger.mp3
+36:Metallica/St. Anger/03 Some Kind of Monster.mp3
+37:Metallica/St. Anger/04 Dirty Window.mp3
+38:Metallica/St. Anger/05 Invisible Kid.mp3
+39:Metallica/St. Anger/06 My World.mp3
+40:Metallica/St. Anger/07 Shoot Me Again.mp3
+41:Metallica/St. Anger/08 Sweet Amber.mp3
+42:Metallica/St. Anger/09 The Unnamed Feeling.mp3
+43:Metallica/St. Anger/10 Purify.mp3
+44:Metallica/St. Anger/11 All Within My Hands.mp3
+45:Metallica/Death Magnetic/01 That Was Just Your Life.mp3
+46:Metallica/Death Magnetic/02 The End of the Line.mp3
+47:Metallica/Death Magnetic/03 Broken, Beat & Scarred.mp3
+48:Metallica/Death Magnetic/04 The Day That Never Comes.mp3
+49:Metallica/Death Magnetic/05 All Nightmare Long.mp3
+50:Metallica/Death Magnetic/06 Cyanide.mp3
+51:Metallica/Death Magnetic/07 The Unforgiven III.mp3
+52:Metallica/Death Magnetic/08 The Judas Kiss.mp3
+53:Metallica/Death Magnetic/09 Suicide & Redemption.mp3
+54:Metallica/Death Magnetic/10 My Apocalypse.mp3
+55:Metallica/Hardwired...To Self-Destruct (Deluxe)/01 - Hardwired.mp3
+56:Metallica/Hardwired...To Self-Destruct (Deluxe)/02 - Atlas, Rise!.mp3
+57:Metallica/Hardwired...To Self-Destruct (Deluxe)/03 - Now That We're Dead.mp3
+58:Metallica/Hardwired...To Self-Destruct (Deluxe)/04 - Moth Into Flame.mp3
+59:Metallica/Hardwired...To Self-Destruct (Deluxe)/05 - Dream No More.mp3
+60:Metallica/Hardwired...To Self-Destruct (Deluxe)/06 - Halo On Fire.mp3
+61:Metallica/Hardwired...To Self-Destruct (Deluxe)/01 - Confusion.mp3
+62:Metallica/Hardwired...To Self-Destruct (Deluxe)/02 - ManUNkind.mp3
+63:Metallica/Hardwired...To Self-Destruct (Deluxe)/03 - Here Comes Revenge.mp3
+64:Metallica/Hardwired...To Self-Destruct (Deluxe)/04 - Am I Savage_.mp3
+65:Metallica/Hardwired...To Self-Destruct (Deluxe)/05 - Murder One.mp3
+66:Metallica/Hardwired...To Self-Destruct (Deluxe)/06 - Spit Out the Bone.mp3
+67:Metallica/Hardwired...To Self-Destruct (Deluxe)/01 - Lords of Summer.mp3
+68:Metallica/Hardwired...To Self-Destruct (Deluxe)/02 - Ronnie Rising Medley (A Light In the Black _ Tarot Woman _ Stargazer _ Kill the King).mp3
+69:Metallica/Hardwired...To Self-Destruct (Deluxe)/03 - When a Blind Man Cries.mp3
+70:Metallica/Hardwired...To Self-Destruct (Deluxe)/04 - Remember Tomorrow.mp3
+71:Metallica/Hardwired...To Self-Destruct (Deluxe)/05 - Helpless (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+72:Metallica/Hardwired...To Self-Destruct (Deluxe)/06 - Hit the Lights (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+73:Metallica/Hardwired...To Self-Destruct (Deluxe)/07 - The Four Horsemen (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+74:Metallica/Hardwired...To Self-Destruct (Deluxe)/08 - Ride the Lightning (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+75:Metallica/Hardwired...To Self-Destruct (Deluxe)/09 - Fade to Black (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+76:Metallica/Hardwired...To Self-Destruct (Deluxe)/10 - Jump in the Fire (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+77:Metallica/Hardwired...To Self-Destruct (Deluxe)/11 - For Whom the Bell Tolls (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+78:Metallica/Hardwired...To Self-Destruct (Deluxe)/12 - Creeping Death (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+79:Metallica/Hardwired...To Self-Destruct (Deluxe)/13 - Metal Militia (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+80:Metallica/Hardwired...To Self-Destruct (Deluxe)/14 - Hardwired (Live at U.S. Bank Stadium, Minneapolis, MN - August 20th, 2016).mp3
+81:Avatar/Feathers & Flesh/10 - Night Never Ending.mp3
+82:Avatar/Feathers & Flesh/01 - Regret.mp3
+83:Avatar/Feathers & Flesh/02 - House of Eternal Hunt.mp3
+84:Avatar/Feathers & Flesh/03 - The Eagle has Landed.mp3
+85:Avatar/Feathers & Flesh/04 - New Land.mp3
+86:Avatar/Feathers & Flesh/05 - Tooth, Beak & Claw.mp3
+87:Avatar/Feathers & Flesh/06 - For The Swarm.mp3
+88:Avatar/Feathers & Flesh/07 - Fiddler’s Farewell.mp3
+89:Avatar/Feathers & Flesh/08 - One More Hill.mp3
+90:Avatar/Feathers & Flesh/09 - Black Waters.mp3
+91:Avatar/Feathers & Flesh/10 - Night Never Ending.mp3
+92:Avatar/Feathers & Flesh/11 - Pray the Sun Away.mp3
+93:Avatar/Feathers & Flesh/12 - When The Snow Lies Red.mp3
+94:Avatar/Feathers & Flesh/13 - Raven Wine.mp3
+95:Avatar/Feathers & Flesh/14 - Sky Burial.mp3
+96:Avatar/Feathers & Flesh/15 - I’ve Got Something In My Front Pocket For You (Bonus Track).mp3
+97:Avatar/Feathers & Flesh/16 - DET ÄR ALLDELES FÖRSENT (Bonus Track).mp3
+98:Avatar/Hail The Apocalypse/01 - Hail The Apocalypse.mp3
+99:Avatar/Hail The Apocalypse/02 - What I Don't Know.mp3
+100:Avatar/Hail The Apocalypse/03 - Death of Sound.mp3
+101:Avatar/Hail The Apocalypse/04 - Vultures Fly.mp3
+102:Avatar/Hail The Apocalypse/05 - Bloody Angel.mp3
+103:Avatar/Hail The Apocalypse/06 - Murderer.mp3
+104:Avatar/Hail The Apocalypse/07 - Tsar Bomba.mp3
+105:Avatar/Hail The Apocalypse/08 - Puppet Show.mp3
+106:Avatar/Hail The Apocalypse/09 - Get In Line.mp3
+107:Avatar/Hail The Apocalypse/10 - Something In The Way.mp3
+108:Avatar/Hail The Apocalypse/11 - Tower.mp3
+playlist_end
