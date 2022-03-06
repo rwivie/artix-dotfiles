@@ -30,6 +30,6 @@ xrandr --output DisplayPort-1 --mode 2560x1440 --rate 144.00
 [ ! -s ~/.config/mpd/pid ] && mpd
 
 #=== kunst exports
-#export KUNST_SIZE="250x250"
-#export KUNST_POSITION="+0+0"
-#export KUNST_MUSIC_DIR="/home/ron/Music/"
+export KUNST_SIZE="250x250"
+export KUNST_POSITION="+0+0"
+export KUNST_MUSIC_DIR="/home/ron/Music/"
