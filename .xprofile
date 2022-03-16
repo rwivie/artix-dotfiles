@@ -26,10 +26,15 @@ xrdb merge ~/.Xresources
 #==== set refresh rate
 xrandr --output DisplayPort-1 --mode 2560x1440 --rate 144.00
 
+#sleep 5 # wait for the output
+
 ## MPD daemon start (if no other user instance exists)
-[ ! -s ~/.config/mpd/pid ] && mpd
+#sleep 20 && [ ! -s ~/.config/mpd/pid ] && mpd &
 
 #=== kunst exports
 export KUNST_SIZE="250x250"
 export KUNST_POSITION="+0+0"
 export KUNST_MUSIC_DIR="/home/ron/Music/"
+
+#export QT_QPA_PLATFORMTHEME=gtk2
+#export QT_QPA_PLATFORMTHEME=qt6gtk2
