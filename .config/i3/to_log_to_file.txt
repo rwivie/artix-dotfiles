@@ -1,5 +1,0 @@
-put in ~/.xinitrc or last line in /usr/share/xsessions/i3.desktop
-
-# Start i3 and log to ~/.i3/logfile
-echo "Starting at $(date)" >> ~/.i3/logfile
-exec /usr/bin/i3 -V -d all >> ~/.i3/logfile
