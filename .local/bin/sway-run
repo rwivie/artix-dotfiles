@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# Set this as Exec in /usr/local/share/wayland-sessions/sway.desktop
+
+export TERMINAL="foot"
+export XDG_CURRENT_DESKTOP="sway"
+export XDG_SESSION_TYPE="wayland"
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_WEBRENDER=1
+export MOZ_ACCELERATED=1
+
+#==== start pipewire
+/usr/bin/pipewire &
+sleep 5 && /usr/bin/pipewire-pulse &
+sleep 5 && dbus-run-session /usr/bin/wireplumber &
+
+sleep 20 && dbus-update-activation-environment --all &
+#sway
+dbus-run-session sway 2> ~/.sway.log
