@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# ~/.xprofile
+
+# sourced at boot by ~/.xinitrc and display managers like lightdm
+
+
+# super alone simulates Alt-F1
+ksuperkey -e 'Super_L=Alt_L|F1' &
+ksuperkey -e 'Super_R=Alt_L|F1' &
+
+## dpms: timeout sleep off
+##xset dpms 600 900 1200
+
+#==== set refresh rate
+# xrandr -q | grep " connected" | cut -d ' ' -f1
+xrandr --output DP-3 --mode 2560x1440 --rate 144.00
+
+#==== try to set dpi
+xrandr --dpi 109
+
+if [ ! -w ${XDG_RUNTIME_DIR:="/run/user/$UID"} ]; then
+    echo "\$XDG_RUNTIME_DIR ($XDG_RUNTIME_DIR) not writable. Unsetting." >&2
+    unset XDG_RUNTIME_DIR
+else
+    export XDG_RUNTIME_DIR
+fi
+
+#==== for X11
+#export XDG_SESSION_TYPE=X11
+
+#==== start pipewire
+/usr/bin/pipewire &
+sleep 5 && /usr/bin/pipewire-pulse &
+sleep 5 && dbus-run-session /usr/bin/wireplumber &
