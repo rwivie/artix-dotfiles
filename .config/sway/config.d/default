@@ -41,7 +41,8 @@ exec swayidle timeout 1200 swaylock timeout 1800 'swaymsg "output * dpms off"' r
 
 #==== rofi menu and power menu
     bindsym --release Super_L exec rofi_run_sway -d
-    bindsym $mod+x exec rofi_run_sway -l 
+    #bindsym $mod+x exec rofi_run_sway -l 
+    bindsym $mod+x exec wlogout -css $HOME/.config/wlogout/style.css -l $HOME/.config/wlogout/layout -b 5 -m 650 -c 50 -p layer-shell
 
 #==== layout,workspace,window bindings
     # Drag floating windows by holding down $mod and left mouse button.
