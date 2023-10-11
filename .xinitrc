@@ -64,3 +64,6 @@ export XDG_SESSION_TYPE="x11"
 export XDG_SESSION_DESKTOP="dwm"
 export XDG_CURRENT_DESKTOP="dwm"
 exec dwmstart.sh
+
+#==== for xfce4
+#exec startxfce4
