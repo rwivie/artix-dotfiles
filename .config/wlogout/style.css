@@ -1,0 +1,99 @@
+* {
+	background-image: none;
+}
+window {
+	background-color: rgba(46, 52, 64, 0.2);
+        /*background-color: rgba(0,0,0,0.5);*/
+        /*background-color: transparent;*/
+}
+button {
+    color: #eceff4;
+	background-color: #2e3440;
+	border-style: solid;
+	border-width: 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+
+button:focus, active {
+        /*color: #d8dee9;*/
+	background-color: #4c566a;
+	outline-style: none;
+        animation: gradient_f 20s ease-in infinite;
+        transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+}
+
+#lock {
+    background-image: image(url("/home/ron/.config/wlogout/icons/lock.png"), url("/home/ron/.config/wlogout/icons/lock.png"));
+}
+
+#lock:focus {
+    background-image: image(url("/home/ron/.config/wlogout/icons/lock_hover_red.png"));
+}
+
+#lock:active {
+    background-image: image(url("/home/ron/.config/wlogout/icons/lock_hover_red.png"));
+}
+
+#logout {
+    background-image: image(url("/home/ron/.config/wlogout/icons/logout.png"), url("/home/ron/.config/wlogout/icons/logout.png"));
+}
+
+#logout:focus {
+    background-image: image(url("/home/ron/.config/wlogout/icons/logout_hover_red.png"));
+}
+
+#logout:active {
+    background-image: image(url("/home/ron/.config/wlogout/icons/logout_hover_red.png"));
+}
+
+
+#suspend {
+    background-image: image(url("/home/ron/.config/wlogout/icons/suspend.png"), url("/home/ron/.config/wlogout/icons/suspend.png"));
+}
+
+#suspend:focus {
+    background-image: image(url("/home/ron/.config/wlogout/icons/suspend_hover_red.png"));
+}
+
+#suspend:active {
+    background-image: image(url("/home/ron/.config/wlogout/icons/suspend_hover_red.png"));
+}
+
+#hibernate {
+    background-image: image(url("/home/ron/.config/wlogout/icons/hibernate.png"), url("/home/ron/.config/wlogout/icons/icons/hibernate.png"));
+}
+
+#hibernate:focus {
+    background-image: image(url("/home/ron/.config/wlogout/icons/hibernate_hover_red.png"));
+}
+
+#hibernate:active {
+    background-image: image(url("/home/ron/.config/wlogout/icons/hibernate_hover_red.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/ron/.config/wlogout/icons/shutdown.png"), url("/home/ron/.config/wlogout/icons/shutdown.png"));
+}
+
+#shutdown:focus {
+    background-image: image(url("/home/ron/.config/wlogout/icons/shutdown_hover_red.png"));
+}
+
+#shutdown:active {
+    background-image: image(url("/home/ron/.config/wlogout/icons/shutdown_hover_red.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/ron/.config/wlogout/icons/reboot.png"), url("/home/ron/.config/wlogout/icons/reboot.png"));
+}
+
+#reboot:focus {
+    background-image: image(url("/home/ron/.config/wlogout/icons/reboot_hover_red.png"));
+}
+
+#reboot:active {
+    background-image: image(url("/home/ron/.config/wlogout/icons/reboot_hover_red.png"));
+}
+
