@@ -35,4 +35,4 @@ else
     export XDG_RUNTIME_DIR
 fi
 
-dbus-update-activation-environment --all
+#dbus-update-activation-environment --all
