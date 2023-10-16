@@ -38,7 +38,7 @@ item_border          = 0
 
 sep_height           = 5
 
-font                 = JetBrainsMono Nerd Font 12px
+font                 = JetBrainsMono Nerd Font 14px
 #font_fallback       = xtg
 icon_size            = 24
 #icon_text_spacing   = 10
