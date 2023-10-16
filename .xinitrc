@@ -66,9 +66,14 @@ export XDG_SESSION_TYPE="x11"
 #export XDG_CURRENT_DESKTOP="dwm"
 #exec dwmstart.sh
 
+#==== for fvwm3
+export XDG_SESSION_DESKTOP="fvwm"
+export XDG_CURRENT_DESKTOP="fvwm"
+exec fvwmstart.sh
+
 #==== for openbox
-#export XDG_SESSION_DESKTOP="openbox"
-#export XDG_CURRENT_DESKTOP="openbox"
+export XDG_SESSION_DESKTOP="openbox"
+export XDG_CURRENT_DESKTOP="openbox"
 exec dbus-run-session openbox-session
 #==== for xfce4
 #exec startxfce4
