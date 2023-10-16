@@ -15,3 +15,4 @@ sleep 10 && mpd &
 
 sleep 15 && $HOME/.config/dwmblocks-async/build/dwmblocks &
 exec dbus-launch --sh-syntax --exit-with-session $HOME/.config/dwm-6.4/dwm 2>&1 | tee ~/.dwm.log
+#exec dbus-launch --sh-syntax --exit-with-session $HOME/.config/dwm-6.4_test/dwm 2>&1 | tee ~/.dwm.log
