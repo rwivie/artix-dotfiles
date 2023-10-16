@@ -1,0 +1,79 @@
+#####################
+####  colorsets  ####
+#####################
+
+#######
+#  Colorsets
+#
+# Colorsets can be used to configure the color of the various
+# parts of fvwm such as window decor, menus, modules, etc.
+#
+# Colorset Convention
+#
+#   0 - Default
+#   1 - Inactive Windows
+#   2 - Active Window
+#   3 - Inactive Windows Borders
+#   4 - Active Windows Borders
+#   5 - Menu - Inactive Item
+#   6 - Menu - Active Item
+#   7 - Menu - Grayed Item
+#   8 - Menu - Title
+#   9 - Reserved
+#  10+ Modules
+#      10 - Module Default
+#      11 - Module Hilight
+#      12 - Module ActiveButton (Mouse Hover)
+#      13 - FvwmPager Active Page
+#      14 - FvwmIconMan Iconified Button
+###########
+
+##==== nord
+## default
+Colorset 0 fg #eceff4, bg #2e3440, hi, sh, Plain, NoShape
+## Inactive window
+Colorset 1 fg #7f8282, bg #2e3440, hi, sh, Plain, NoShape
+## Active window
+Colorset 2 fg #eceff4, bg #2e3440, hi, sh, Plain, NoShape
+## Inactive window borders
+Colorset 3 fg #2e3440, bg #2e3440, hi, sh, Plain, NoShape
+## Active window borders
+Colorset 4 fg #2e3440, bg #2e3440, hi #4c566a, sh #2e3440, Plain, NoShape
+## Menu Inactive item
+Colorset 5 fg #d8dee9, bg #2e3440, hi #2e3440, sh #2e3440, Plain, NoShape
+## Menu Active item
+Colorset 6 fg #b48ead, bg #4c566a, hi, sh, Plain, NoShape
+## Menu grayed item
+Colorset 7 fg #2e3440, bg #2e3440, hi, sh, Plain, NoShape
+## Menu title
+Colorset 8 fg #eceff4, bg #2e3440, hi #2e3440, sh #2e3440, Plain, NoShape
+## Module default
+Colorset 10 fg #eceff4, bg #2e3440, hi #3b4252, sh #3b4252, Plain, NoShape
+## Module hilight
+Colorset 11 fg #eceff4, bg #5e81ac, hi #eceff4, sh #eceff4, Plain, NoShape
+## Module Activebutton (mouse hover)
+Colorset 12 fg #2e3440, bg #b48ead, hi #4c566a, sh #2e3440, Plain, NoShape
+## pager active pager
+Colorset 13 fg #eceff4, bg #4c566a, hi #eceff4, sh #eceff4, Plain, NoShape
+## fvwmiconman iconified button
+Colorset 14 fg #d8dee9, bg #2e3440, hi #4c566a, sh #d8dee9, Plain, NoShape
+## Rightbuttons Module default
+Colorset 15 fg #eceff4, bg #5e81ac, hi #2e3440, sh #d8dee9, Plain, NoShape
+## Rightbuttons Module hilight
+Colorset 16 fg #eceff4, bg #2e3440, hi #eceff4, sh #eceff4, Plain, NoShape
+## Rightbuttons Module Activebutton (mouse hover)
+Colorset 17 fg #eceff4, bg #81a1c1, hi #eceff4, sh #eceff4, Plain, NoShape
+## pager was 15 windowcolorsets
+Colorset 18 fg #eceff4, bg #4c566a, hi #2e3440, sh #2e3440, Plain, NoShape
+## pager was 16 windowcolorsets active desktop windows
+Colorset 19 fg #eceff4, bg #5e81ac, hi #4c566a, sh #4c566a, Plain, NoShape
+## 
+Colorset 20 fg #2e3440, bg #4c566a, hi #eceff4, sh #eceff4, Plain, NoShape
+## Module Activebutton (mouse hover)
+Colorset 21 fg #eceff4, bg #5e81ac, hi, sh, Plain, NoShape
+#==== for fvwmiconman  was 12 and 14
+Colorset 22 fg #b48ead, bg #4c566a, hi #2e3440, sh #2e3440, Plain, NoShape
+Colorset 23 fg #d8dee9, bg #2e3440, hi #4c566a, sh #d8dee9, Plain, NoShape
+
+#   for fvwmpager rightbuttons
+Colorset 103 fg #5e81ac, bg #81a1c1, hi, sh, Plain, NoShape
