@@ -73,7 +73,7 @@ xmenu.maxItems: 20
 !==== xterm ====
 
 xterm*font: 7x13
-xterm*faceName: PragmataPro:size=10:antialias=false
+xterm*faceName: JetBrainsMono Nerd Font:size=14:antialias=false
 xterm*loginShell: true
 xterm*vt100*geometry: 90x34
 xterm*saveLines: 2000
