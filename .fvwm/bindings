@@ -108,10 +108,13 @@ Key XF86AudioRaiseVolume A A Exec exec i3-volume -nPp up 5
 Key XF86AudioLowerVolume A A Exec exec i3-volume -nPp down 5
 Key XF86AudioMute A A Exec exec i3-volume mute -np
 
-#==== Media keys
-Key XF86AudioPlay A A Exec exec playerctl play-pause
-Key XF86AudioNext A A Exec exec playerctl next
-Key XF86AudioPrev A A Exec exec playerctl previous
+#==== Media keys fuck playerctl
+#Key XF86AudioPlay A A Exec exec playerctl play-pause
+#Key XF86AudioNext A A Exec exec playerctl next
+#Key XF86AudioPrev A A Exec exec playerctl previous
+Key XF86AudioPlay A A Exec exec mpc toggle
+Key XF86AudioNext A A Exec exec mpc next
+Key XF86AudioPrev A A Exec exec mpc prev
 Key XF86Tools	  A A Exec exec kitty ncmpcpp
 
 #==== screenshot
