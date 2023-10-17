@@ -58,7 +58,8 @@ Style * SloppyFocus, MouseFocusClickRaises
 
 # Default Font
 #DefaultFont "xft:Sans:Bold:size=8:antialias=True"
-DefaultFont "xft:Inter:Bold:size=12:antialias=True"
+#DefaultFont "xft:Inter:Bold:size=12:antialias=True"
+DefaultFont "xft:JetBrainsMono Nerd Font:Regular:size=12:antialias=True"
 
 # Window Placement
 Style * MinOverlapPlacement, GrabFocusOff, !UsePPosition
@@ -104,16 +105,6 @@ Style FvwmTaskBar !Borders, !Title, WindowListSkip, \
 Style RightButtons !Title, Borders, !Handles, Sticky, \
                  WindowListSkip, NeverFocus, StaysOnBottom
 
-Style RightButtons2 !Title, Borders, !Handles, Sticky, \
-                 WindowListSkip, NeverFocus, StaysOnBottom
-
-Style FvwmMpd !Title, !Borders, !Handles, Sticky, \
-                 WindowListSkip, NeverFocus, StaysOnBottom
-
-Style Dock !Title, !Borders, !Handles, Sticky, \
-                 WindowListSkip, NeverFocus, StaysOnBottom
-                                
-
 ## Workspaces/Pages/Position
 #Style "*Firefox*" StartsOnDesk 0
 #Style discord StartsOnPage 0 1 1, SkipMapping
@@ -132,11 +123,17 @@ Style Dock !Title, !Borders, !Handles, Sticky, \
 
 #Style Shotcut StartsOnDesk 3
 
-#==== no title
+#==== no title $[w.name] $[w.iconname] $[w.class]
 Style Xfce4-notes !Title
 Style sticky-note !Title
 Style Steam !Title
 Style kruler !Title
+#Style $[w.name] 
+Style *Cava* !Title
+
+#==== gtk and csd
+Style Marker !MWMDecor, !Title
+Style Font-manager !MWMDecor, !Title
 
 #==== icon overrides
 #Style kitty EWMHMiniIconOverride, Icon kitty.svg:48x48, MiniIcon kitty.svg:18x18
