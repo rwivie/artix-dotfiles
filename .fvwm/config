@@ -53,13 +53,9 @@ DestroyFunc StartFunction
 AddToFunc   StartFunction
 #+ I Module FvwmButtons RightButtons
 #+ I Module FvwmButtons RightButtons2
-#+ I Module FvwmButtons FvwmMpd
-#+ I Module FvwmButtons Dock
 #+ I Module FvwmDebug -l /home/ron/.fvwm/log
 + I Module FvwmButtons FvwmTaskBar
 + I Module FvwmEvent EventNewDesk
-#+ I Module FvwmScript FvwmApplet-MpdSongInfo
-#+ I Module FvwmScript FvwmScript-MpdSimple
 #Module FvwmConsole
 
 # Local configuration file. For use with the default-config.
