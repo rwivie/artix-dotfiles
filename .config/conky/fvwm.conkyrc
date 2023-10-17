@@ -84,7 +84,7 @@ ${color3}CPU:${goto 60}Used${alignr}GHz
 ${color4}Avg${goto 60}${cpu cpu0}%${alignr}${freq_g}
 #${color2}${hr}
 
-${color4}${font Material Design Icons}   ${font}${voffset -2}${alignr}${execpi 3600 xbps-install -Mun 2> /dev/null | awk 'END { print (NR == 0 ? "System updated" : NR " package" (NR > 1 ? "s" : "")); }'}
+${color4}${font Material Design Icons} 󰮯󰧟󰧟${font}${voffset -2}${alignr}${execpi 3600 checkupdates | awk 'END { print (NR == 0 ? "System updated" : NR " package" (NR > 1 ? "s" : "")); }'}
 
 ${alignc}${color2}${scroll 15 $mpd_artist}
 ${alignc}${scroll 15 $mpd_title}${color}
@@ -92,5 +92,5 @@ ${voffset 4}${color1}${mpd_bar 6,60}${alignr}${mpd_elapsed}/${mpd_length}
 #${alignc}${mpd_elapsed}/${mpd_length}
 ${if_running mpd}${execi 4 ~/.config/conky/res/albumart}\
 ${image /tmp/cover2.png -p -0,280 -s 130x130}\
-${else}${image ~/.config/conky/res/mpd-off.png -s 140x140}${endif}
+${else}${image ~/.config/conky/res/mpd-off.png -p -0,280 -s 130x130}${endif}
 ]];
