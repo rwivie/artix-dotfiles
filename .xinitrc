@@ -67,6 +67,7 @@ export XDG_SESSION_TYPE="x11"
 #exec dwmstart.sh
 
 #==== for fvwm3
+mpd & 
 export XDG_SESSION_DESKTOP="fvwm"
 export XDG_CURRENT_DESKTOP="fvwm"
 exec fvwmstart.sh
