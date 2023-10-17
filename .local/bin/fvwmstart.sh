@@ -11,8 +11,9 @@ firewall-applet &
 sleep 5 && pasystray --notify=none &
 caffeine &
 dunst -conf ~/.config/dunst/dunstrc &
-picom --config ~/.config/picom/picom_dwm.conf --daemon &
+picom --config ~/.config/picom/picom.conf --daemon &
 (sleep 1; xautolock -time 10 -locker lock -corners '+-00' -cornerdelay 15 -notify 15 -notifier "notify-send 'Screen will lock in 15 s'") &
-sleep 10 && mpd &
+#sleep 10 && mpd &
+playerctl_fix.sh &
 exec dbus-launch --sh-syntax --exit-with-session /usr/bin/fvwm3 2>&1 | tee ~/.fvwm.log
 
