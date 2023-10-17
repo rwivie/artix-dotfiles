@@ -58,8 +58,8 @@ Style * SloppyFocus, MouseFocusClickRaises
 
 # Default Font
 #DefaultFont "xft:Sans:Bold:size=8:antialias=True"
-#DefaultFont "xft:Inter:Bold:size=12:antialias=True"
-DefaultFont "xft:JetBrainsMono Nerd Font:Regular:size=12:antialias=True"
+DefaultFont "xft:Inter:Bold:size=12:antialias=True"
+#DefaultFont "xft:JetBrainsMono Nerd Font:Regular:size=12:antialias=True"
 
 # Window Placement
 Style * MinOverlapPlacement, GrabFocusOff, !UsePPosition
