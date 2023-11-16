@@ -7,29 +7,29 @@
 #====================================================
 
 # Icons from your ImagePath
-PLAYICON="media/media-playback-start-6.png"
-PAUSEICON="media/media-playback-pause-6.png"
-NEXTICON="media/media-seek-forward-6.png"
-PREVICON="media/media-seek-backward-6.png"
-STOPICON="media/media-playback-stop-6.png"
+PLAYICON="media/media-playback-start.svg"
+PAUSEICON="media/media-playback-pause.svg"
+NEXTICON="media/media-seek-forward.svg"
+PREVICON="media/media-seek-backward.svg"
+STOPICON="media/media-playback-stop.svg"
 
-LISTICON="media/format-justify-left-5.png"
-OUTICON="media/audio-card-2.png"
-VOLICON="media/audio-volume-high-3.png"
-TOGICON="media/preferences-desktop-2.png"
+LISTICON="media/format-justify-left.svg"
+OUTICON="media/audio-card.svg"
+VOLICON="media/audio-volume-high.svg"
+TOGICON="media/preferences-desktop.svg"
 
-RANDICON="media/media-playlist-shuffle-2.png"
-REPICON="media/media-playlist-repeat-2.png"
-SINGICON="media/single.png"
-CONSICON="media/consume.png"
-CROSSICON="media/draw-triangle.png"
-GAINICON="media/office-chart-line-stacked2.png"
+RANDICON="media/media-playlist-shuffle.svg"
+REPICON="media/media-playlist-repeat.svg"
+SINGICON="media2/single.png"
+CONSICON="media2/consume.png"
+CROSSICON="media/draw-triangle.svg"
+GAINICON="media/office-chart-line-stacked.svg"
 
-LOADICON="media/list-add-4.png"
-UPDICON="media/view-refresh-5.png"
-KILLICON="media/dialog-close.png"
+LOADICON="media/list-add.svg"
+UPDICON="media/view-refresh.svg"
+KILLICON="media/dialog-close.svg"
 
-TICKICON="media/tick.png"
+TICKICON="media/tick.svg"
 
 main() {
 
