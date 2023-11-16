@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Play/Pause
+Exec=mpc play
+Type=Application
+#Icon=applications-multimedia
+Icon=/usr/share/icons/Papirus-Dark/symbolic/actions/media-playback-start-symbolic.svg
+#Icon=media-playback-start

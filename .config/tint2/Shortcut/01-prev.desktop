@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Prev
+Exec=mpc prev
+Type=Application
+Icon=/usr/share/icons/Papirus-Dark/symbolic/actions/media-skip-backward-symbolic.svg
+#Icon=/usr/share/icons/Ultra-Flat/actions/scalable/media-skip-backward.svg
+#Icon=media-skip-backward
