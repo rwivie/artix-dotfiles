@@ -28,6 +28,11 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+#==== kunst
+export KUNST_MUSIC_DIR="/home/ron/Music/"
+#export KUNST_SIZE="250x250"
+#export KUNST_POSITION="+0+0"
+
 if [ ! -w ${XDG_RUNTIME_DIR:="/run/user/$UID"} ]; then
     echo "\$XDG_RUNTIME_DIR ($XDG_RUNTIME_DIR) not writable. Unsetting." >&2
     unset XDG_RUNTIME_DIR
