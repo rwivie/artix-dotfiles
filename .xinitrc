@@ -38,6 +38,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 export XDG_SESSION_TYPE="x11"
+
+#==== start some programs
+mpd &
+
 #dbus-update-activation-environment --all
 #check_desktop.sh &
 
@@ -66,11 +70,24 @@ export XDG_SESSION_TYPE="x11"
 #export XDG_CURRENT_DESKTOP="dwm"
 #exec dwmstart.sh
 
+#==== for dusk
+#export XDG_SESSION_DESKTOP="dusk"
+#export XDG_CURRENT_DESKTOP="dusk"
+#exec duskstart.sh
+
+#==== for dk
+#export XDG_SESSION_DESKTOP="dk"
+#export XDG_CURRENT_DESKTOP="dk"
+#exec dk
+
+#==== for katriawm
+#exec katriawm_start.sh
+
 #==== for fvwm3
-mpd & 
-export XDG_SESSION_DESKTOP="fvwm"
-export XDG_CURRENT_DESKTOP="fvwm"
-exec fvwmstart.sh
+#mpd &
+#export XDG_SESSION_DESKTOP="fvwm"
+#export XDG_CURRENT_DESKTOP="fvwm"
+#exec fvwmstart.sh
 
 #==== for openbox
 export XDG_SESSION_DESKTOP="openbox"
