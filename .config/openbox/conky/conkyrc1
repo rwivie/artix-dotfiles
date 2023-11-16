@@ -1,0 +1,52 @@
+conky.config = {
+use_xft = true,
+font = 'SF Pro:size=9',
+xftalpha = 0.1,
+update_interval = 2,
+total_run_times = 0,
+
+own_window = true,
+own_window_class = 'Conky',
+own_window_type = 'normal',
+own_window_transparent = true,
+own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+own_window_colour = '000000',
+own_window_argb_visual = true,
+own_window_argb_value = 0,
+double_buffer = true,
+draw_shades = true,
+draw_outline = false,
+draw_borders = false,
+draw_blended = false,
+draw_graph_borders = false,
+default_color = 'eceff4',
+default_shade_color = '242841',
+default_outline_color = 'green',
+alignment = 'bottom_left',
+minimum_width = 200,
+maximum_width = 500,
+minimum_height = 200,
+gap_x = 30,
+gap_y = 30,
+text_buffer_size = 8000,
+uppercase = false,
+draw_shades = true,
+cpu_avg_samples = 2,
+net_avg_samples = 1,
+override_utf8_locale = true,
+use_spacer = 'right',
+};
+ 
+conky.text = [[
+${voffset 60}\
+${offset 220}${font SF Pro Text:Bold:size=9}${mpd_artist}\
+${voffset 10}
+${offset 220}${font SF Pro Text:Bold:size=9}${mpd_album}\
+${voffset 4}
+${offset 220}${font SF Pro Text:Bold:size=9}${mpd_title}\
+${voffset 4}
+${offset 220}${font SF Pro Text:size=7:Bold}$mpd_elapsed - $mpd_length\
+${image $HOME/.config/conky/res/shadow.png -p 0,0 -s 200x200}
+${image /tmp/mpdAlbumArt.jpg -p 10,10 -s 180x180}
+${font}
+]];
