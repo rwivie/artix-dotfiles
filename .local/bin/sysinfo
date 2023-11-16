@@ -106,7 +106,8 @@ if [ -f $battery/charge_full ] ; then
 fi
 
 #\\ volume
-vol=`amixer get Master | awk '$0~/%/{print $5}' | head -n1 | tr -d '[]%'`
+#vol=`amixer get Master | awk '$0~/%/{print $5}' | head -n1 | tr -d '[]%'`
+vol=$(amixer get Master | awk -F '[][]' '/%/ {print $2; exit}' | tr -d '%')
 if amixer get Master | grep -q '\[off\]' 
 then
   color='31'
