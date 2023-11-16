@@ -1,6 +1,6 @@
-!Xcursor.theme: Capitaine-Cursors-Nord
-Xcursor.theme: Capitaine Cursors (Nord) - White
-Xcursor.size: 16
+!Xcursor.theme: XCursor-Pro-Nord-White
+Xcursor.theme: XCursor-Pro-Nord-White
+Xcursor.size: 24
 
 !==== Fonts config ====
 Xft.dpi: 109
@@ -18,15 +18,30 @@ xmenu.foreground: #eceff4
 xmenu.selbackground: #5e81ac
 xmenu.selforeground: #2e3440
 xmenu.border: #5e81ac
-xmenu.separator: #d8dee9
+xmenu.separator: #5e81ac
 xmenu.gap: 2
 xmenu.width: 70
 xmenu.height: 30
-xmenu.borderWidth: 4
+xmenu.borderWidth: 2
 xmenu.separatorWidth: 2
 xmenu.alignment: left
 xmenu.maxItems: 20 
 
+!==== st ====
+!st.termname: 
+st.font:         JetBrainsMono Nerd Font:style:regular:pixelsize=16
+
+! window padding
+!st.borderpx: 0
+
+!- 0.1 to 0.9 = transparency
+!st.alpha: 0.8
+
+st.background: #2e3440
+st.foreground: #eceff4
+st.cursorColor: #81a1c1
+
+!==== nord color scheme ====
 ! Copyright (c) 2016-present Sven Greb <development@svengreb.de>
 ! This source code is licensed under the MIT license found in the license file.
 
@@ -53,7 +68,8 @@ xmenu.maxItems: 20
 *fading: 35
 *fadeColor: nord3
 
-*.color0: nord1
+!*.color0: nord1
+*.color0: nord0
 *.color1: nord11
 *.color2: nord14
 *.color3: nord13
@@ -63,7 +79,8 @@ xmenu.maxItems: 20
 *.color7: nord5
 *.color8: nord3
 *.color9: nord11
-*.color10: nord14
+!*.color10: nord14
+*.color10: nord10
 *.color11: nord13
 *.color12: nord9
 *.color13: nord15
