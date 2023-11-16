@@ -30,7 +30,7 @@ window {
    padding: 10px;
    fullscreen: false;
    border:  2px;
-   border-radius: 0px;
+   border-radius: 12px;
    border-color: var(border-color);
 }
 
