@@ -56,7 +56,19 @@ AddToFunc   StartFunction
 #+ I Module FvwmDebug -l /home/ron/.fvwm/log
 + I Module FvwmButtons FvwmTaskBar
 + I Module FvwmEvent EventNewDesk
-#Module FvwmConsole
+
+#==== autostart some shit
+#+ I Test (Init) Exec exec $HOME/.local/bin/fvwmstart_2.sh
+# + I Test (Restart) Exec exec fvwmstart.sh
+
+#DestroyFunc ExitFunction
+#AddToFunc   ExitFunction
+#+ I Test (!ToRestart) Exec exec rm -f $[HOME]/.fvwm/icon.tmp.*
+#+ I Test (!ToRestart) Exec exec rm -f $[FVWM_USERDIR]/temp/*icon*
+#+ I Exec exec killall -q conky
+#+ I Exec exec killall -q stalonetray
+
+
 
 # Local configuration file. For use with the default-config.
 #
