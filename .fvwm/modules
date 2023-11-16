@@ -76,15 +76,15 @@ DestroyModuleConfig RightButtons2*
 							Action (Mouse 3) Menu GLavaMenu, \
 							Frame 0)
 *RightButtons: (180x20, Frame 0)
-*RightButtons: (36x36, Icon "media/emblem-music-symbolic.png", ActiveColorset 12, \
+*RightButtons: (36x36, Icon "media2/emblem-music-symbolic.png", ActiveColorset 12, \
               Action(Mouse 1) "Exec exec mpdevil")
-*RightButtons: (36x36, Icon "media/media-skip-backward.png", ActiveColorset 12, \
+*RightButtons: (36x36, Icon "media2/media-skip-backward.png", ActiveColorset 12, \
               Action(Mouse 1) "Exec exec mpc prev")
-*RightButtons: (36x36, Icon "media/media-playback-start.png", ActiveColorset 12, \
+*RightButtons: (36x36, Icon "media2/media-playback-start.png", ActiveColorset 12, \
               Action(Mouse 1) "Exec exec mpc toggle")
-*RightButtons: (36x36, Icon "media/media-playback-stop.png", ActiveColorset 12, \
+*RightButtons: (36x36, Icon "media2/media-playback-stop.png", ActiveColorset 12, \
               Action(Mouse 1) "Exec exec mpc stop")
-*RightButtons: (36x36, Icon "media/media-skip-forward.png", ActiveColorset 12, \
+*RightButtons: (36x36, Icon "media2/media-skip-forward.png", ActiveColorset 12, \
               Action(Mouse 1) "Exec exec mpc next")
 *Rightbuttons: (60x60, Icon "dock/kitty48.png", ActiveColorset 12, \
               Action(Mouse 1) "Exec exec kitty")
